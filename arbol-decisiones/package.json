@@ -1,0 +1,47 @@
+{
+  "name": "arbol-proyecto-vida",
+  "version": "1.0.0",
+  "description": "Árbol interactivo y editable para planificar tu proyecto de vida",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "build": "echo 'No build needed - static files'",
+    "test": "echo 'Manual testing via browser'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/arbol-proyecto-vida.git"
+  },
+  "keywords": [
+    "proyecto-vida",
+    "árbol-decisiones",
+    "planificación-personal",
+    "visualización-interactiva",
+    "d3js",
+    "desarrollo-personal"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "homepage": "https://tu-usuario.github.io/arbol-proyecto-vida",
+  "technologies": {
+    "frontend": ["HTML5", "CSS3", "JavaScript ES6+"],
+    "libraries": ["D3.js v7"],
+    "fonts": ["Google Fonts - Gluten"],
+    "storage": ["LocalStorage", "JSON Export"]
+  },
+  "features": [
+    "Visualización orgánica de árbol",
+    "Edición completa de nodos",
+    "Generador automático de ideas",
+    "Guardado automático y manual",
+    "Interfaz responsive",
+    "Validación en tiempo real"
+  ],
+  "browsers": [
+    "Chrome >= 80",
+    "Firefox >= 75",
+    "Safari >= 13",
+    "Edge >= 80"
+  ]
+}
